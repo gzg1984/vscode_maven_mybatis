@@ -102,18 +102,18 @@
 			<artifactId>javaee-api</artifactId>
 			<version>7.0</version>
 		</dependency>
-		<!-- 导入Mysql数据库链接jar包 -->
+		<!-- 导入Mysql数据库链接jar包
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.30</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java 
+			<version>5.1.30</version> 
+		</dependency> -->
+		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java  -->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.28</version>
-		</dependency>-->
+		</dependency>
 
 
 		<!-- 导入dbcp的jar包，用来在applicationContext.xml中配置数据库 -->
